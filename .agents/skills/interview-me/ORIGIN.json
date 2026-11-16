@@ -1,0 +1,31 @@
+{
+  "skill": "interview-me",
+  "provider": "Addy Osmani",
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "commit": "39b723ceebf81474d0557c1fecd01eddab585563",
+  "upstream_directory": "skills/interview-me",
+  "upstream_tree_sha1": "2a391376521dee060881b7edc676e58a564616f2",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2025 Addy Osmani",
+  "source_observed_on": "2026-11-15",
+  "upstream_content_modified": false,
+  "integration_policy": "selection-only; no procedural overrides",
+  "files": [
+    {
+      "upstream_path": "skills/interview-me/SKILL.md",
+      "url": "https://raw.githubusercontent.com/addyosmani/agent-skills/39b723ceebf81474d0557c1fecd01eddab585563/skills/interview-me/SKILL.md",
+      "destination": ".agents/skills/interview-me/SKILL.md",
+      "bytes": 15080,
+      "git_blob_sha1": "200f9186ffa234708aa5deec1946c6dfcb7a7335",
+      "sha256": "ace4b675999bb504593d572e0f73f3d7e803ad6fddf318445598c82c11939db2"
+    },
+    {
+      "upstream_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/addyosmani/agent-skills/39b723ceebf81474d0557c1fecd01eddab585563/LICENSE",
+      "destination": ".agents/skills/interview-me/LICENSE",
+      "bytes": 1068,
+      "git_blob_sha1": "d67778ada6b9cda6227e9130da182c13e73c8b2e",
+      "sha256": "6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7"
+    }
+  ]
+}

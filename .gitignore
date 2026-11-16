@@ -1,0 +1,42 @@
+# Private work, checkpoints, evidence, backups and local project index.
+/projects/
+
+# OpenCode runtime: expose only the reviewed agent/command directories.
+/.opencode/*
+!/.opencode/agents/
+!/.opencode/commands/
+
+# Dependencies, runtime exports and generated state anywhere.
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.cache/
+coverage/
+dist/
+build/
+sessions/
+session-exports/
+opencode-loop/
+*.log
+*.tmp
+*.bak
+
+# Secrets: no example exception in the public selection.
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials.json
+secrets.json
+
+# Machine/editor state.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

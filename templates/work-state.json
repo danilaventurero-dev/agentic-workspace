@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "task_id": "EXAMPLE-001",
+  "project": "projects/example",
+  "workspace": ".",
+  "objective": {
+    "text": "Sustituir por objetivo real legítimamente disponible",
+    "confirmed": false,
+    "source": "Sustituir por referencia de solicitud o confirmación real"
+  },
+  "stage": "DEFINE",
+  "status": "paused",
+  "context": ["PLANTILLA: no es un checkpoint creado; sustituir fecha, ID y contenido antes de usar"],
+  "decisions": [],
+  "assumptions": [],
+  "constraints": ["No persistir secretos ni datos sensibles innecesarios"],
+  "artifacts": [],
+  "next_action": {
+    "description": "Completar objetivo y alcance pendientes con evidencia legítima",
+    "required_authorization": []
+  },
+  "authorization": {"granted": [], "pending": []},
+  "blockers": [],
+  "parent_task_id": null,
+  "updated_at": "2026-11-15T00:00:00Z",
+  "session_ref": null
+}
